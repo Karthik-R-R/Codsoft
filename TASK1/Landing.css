@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf2ff;
+    color: #000;
+}
+
+header {
+    background-color: #0663f7; 
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+#heading::before{
+    content: '';
+    z-index: -1;
+    position: absolute;
+    background: url('./businessman-3213659_1920.jpg') center no-repeat ;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity:0.5;
+    top: 140px;
+    left:0px;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: -2em;
+}
+
+.feature {
+    width: 30%;
+    margin: 1em;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.feature img{
+    width: 60%;
+}
+.about-us,
+.our-services {
+    background-color: #c9e3ff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 2em;
+}
+
+.box {
+    border: 2px solid #4285f4;
+    padding: 1em;
+    border-radius: 8px;
+    width: 60%;
+    margin: auto;
+}
+#heading-container {
+    text-align: center;
+    background-color: #fff; 
+    width: 60%;
+    margin: auto; 
+    padding: 20px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-justify: newspaper;
+}
+.about-us h2,
+.our-services h2 {
+    margin-bottom: 1em;
+    color: #000;
+}
+
+footer {
+    background-color: #0663f7;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 0; 
+}
